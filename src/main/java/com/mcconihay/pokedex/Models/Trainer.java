@@ -23,6 +23,10 @@ public class Trainer {
 	public Trainer(Trainer trainer) {
 	}
 
+	public Trainer() {
+
+	}
+
 //	@OneToMany(mappedBy = "trainer")
 //	private List<Pokemon> trainerPokemon;
 
