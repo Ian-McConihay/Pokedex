@@ -20,6 +20,9 @@ public class Trainer {
 	@Column(nullable = false, precision = 3, scale = 0)
 	private int age;
 
+	public Trainer(Trainer trainer) {
+	}
+
 //	@OneToMany(mappedBy = "trainer")
 //	private List<Pokemon> trainerPokemon;
 
