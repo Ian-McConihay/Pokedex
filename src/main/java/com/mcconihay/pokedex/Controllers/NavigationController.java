@@ -15,7 +15,7 @@ public class NavigationController {
 	@GetMapping("/")
 	public String viewLandingPage(Model model) {
 		model.addAttribute("trainer", new Trainer());
-		return "views/landing-page";
+		return "templates/views/landing-page";
 	}
 
 }
